@@ -7,4 +7,6 @@
     <string name="time2Name">Time 2</string>
     <string name="hintTime2">Digite o nome do time visitante</string>
     <string name="btStartGame">Começar Jogo</string>
+    <string name="placarInicial">0</string>
+    <string name="golButton">Gol</string>
 </resources>

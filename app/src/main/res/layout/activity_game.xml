@@ -16,19 +16,39 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/tvTimeStyle"
             android:id="@+id/tvTime1"
-            android:layout_weight="0.5"
-            android:gravity="center"
             tools:text="Time1"/>
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/tvTimeStyle"
             android:id="@+id/tvTime2"
-            android:layout_weight="0.5"
-            android:gravity="center"
             tools:text="Time2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/tvPlacarStyle"
+            android:id="@+id/tvPlacar1"/>
+        <TextView
+            style="@style/tvPlacarStyle"
+            android:id="@+id/tvPlacar2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/tvGolStyle"
+            android:id="@+id/btPlacar1"
+            android:onClick="golTime1"/>
+        <Button
+            style="@style/tvGolStyle"
+            android:id="@+id/btPlacar2"
+            android:onClick="golTime2"/>
     </LinearLayout>
 
 </LinearLayout>
